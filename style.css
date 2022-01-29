@@ -1,0 +1,55 @@
+body
+{
+  color: white;
+  background: #1eece2;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+  box-shadow: 3px 3px 3px grey; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+#capture{
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  background-color:orangered;
+  box-shadow: 3px 3px 3px green;
+  transition: transform 1s;
+}
+#capture:hover{
+  transform: rotateY(180deg);
+}
+#check{
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  background-color:rgb(255, 30, 0);
+  box-shadow: 3px 3px 3px rgb(59, 38, 248);
+  transition: transform 1s;
+}
+#check:hover{
+  transform: rotateX(180deg);
+}
+.btn-warning{
+  width: 50%;
+  font-size: 40px;
+  text-shadow: 1px 1px black;
+}
